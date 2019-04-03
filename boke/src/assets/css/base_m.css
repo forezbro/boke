@@ -1,0 +1,109 @@
+.fx {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+.fx-inline {
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+}
+
+.fx-align {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.fx-wrap {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.fx-fill {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+}
+
+.fx-shrink {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+
+.fx-y-down {
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+}
+
+.fx-y-center {
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.fx-y-stretch {
+  align-items: stretch;
+  -webkit-align-items: stretch;
+}
+
+.fx-x-center {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.fx-x-right {
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+
+.fx-x-between {
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+
+.fx-x-around {
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+
+
+.ell-2 {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.ell-1 {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.ell-3 {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  top: -5px;
+  left: 0;
+  height: 2px;
+  background: #696969;
+  transition: all 0.3s linear;
+}
